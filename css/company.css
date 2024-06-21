@@ -1,1 +1,78 @@
+@charset "UTF-8";
 
+/*---------- login.php(ログイン) ----------*/
+.initial-display {
+  text-align: center;
+}
+.login-information {
+  text-align: center;
+}
+.input {
+  width: 60%;
+}
+.login-btn {
+  margin: 70px auto;
+}
+.error-text {
+  color: red;
+  margin: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*---------- article.php(記事一覧) ---------*/
+.edit-btn {
+  float: left;
+  margin: 20px 0 0 25%;
+}
+.delete-btn {
+  float: right;
+  margin: 20px 25% 0 0;
+  cursor: pointer;
+}
+
+/*----------- add-form.php(記事追加) ----------*/
+#addForm p {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+#editForm p {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+#add-title,
+#add-content,
+#edit-title,
+#edit-content {
+  width: 500px;
+}
+.char-count {
+  text-align: center;
+  display: block;
+}
+.add-btn {
+  margin: 50px;
+}
+.new-img-wrapper {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+.item-img-wrapper {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/*----------- edit-form.php(記事更新) -----------*/
+.edit-form-btn {
+  margin: 50px;
+}
+.new-img-wrapper {
+  flex-direction: column;
+}
+#current-img {
+  max-width: 300px;
+}
